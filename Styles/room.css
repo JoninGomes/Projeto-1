@@ -1,5 +1,5 @@
 .content{
-    max-width: 90%;
+    max-width: min(112rem, 90%);
 }
 #room header{
     width: 100%;
@@ -34,4 +34,61 @@ display: flex;
 #room header .buttons .button:nth-child(2) img{
     width: 2rem;
     height: 2rem;
+}
+
+/* Questoes*/
+
+#questoes h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    color: var(--black);
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+    line-height: 4.2rem;
+}
+
+#questoes form{
+    border: .2rem solid var(--grey-blue);
+    padding: 1.6rem;
+    border-radius: 0 .8rem .8rem .8rem;
+
+    margin-bottom: 1.6rem;
+}
+
+#questoes form textarea{
+    resize: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+}
+
+#questoes form textarea::placeholder{
+    color: var(--grey-blue);
+
+}
+
+#questoes form footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#questoes form footer > div{
+    display: flex;
+    align-items: center;
+
+    color: var(--icons);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+#questoes form footer > div img{
+    margin-right: 0.9rem;
+}
+
+#questoes form footer button{
+    height: auto;
+    padding: .8rem 2.4rem;
+    line-height: 2.4rem;
 }
