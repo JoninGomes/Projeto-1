@@ -6,8 +6,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!-- CSS -->
+
         <link rel="stylesheet" href="./Styles/global.css">
         <link rel="stylesheet" href="./Styles/room.css">
+        <link rel="stylesheet" href="./Styles/modal.css">
+
+        <!-- FONTS -->
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,7 +64,7 @@
                         <div class="question1">
                             <div class="question-content">
                                 <div class="user">
-                                    <img src="Imagen/Avatar.svg" alt="Avatar">
+                                    <img src="Imagen/Branquin.svg" alt="Avatar">
                                 </div>
                                 <div class="questionn">
                                     <p>Qual a diferença entre const, var e let no JavaScript?</p>
@@ -77,11 +82,95 @@
                             </div>
                         </div>
 
+                        <div class="question1">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="Imagen/Branquin.svg" alt="Avatar">
+                                </div>
+                                <div class="questionn">
+                                    <p>O que é JavaScript?</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="check">
+                                    <img src="Imagen/check 1.svg" alt="Marcar como lida">
+                                    Marcar como lida
+                                </a>
+                                <a href="#" class="trash" >
+                                    <img src="Imagen/trash 1.svg" alt="Excluir">
+                                    Excluir
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="question1">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="Imagen/Branquin.svg" alt="Avatar">
+                                </div>
+                                <div class="questionn">
+                                    <p>Como fazemos para aprender 100% do css e depois de aprender 100% do css como fazemos para aprender todo o javascript para tornar um programador profissonal que cria aplicativos e que cria programas de computador para intreterimento?</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="check">
+                                    <img src="Imagen/check 1.svg" alt="Marcar como lida">
+                                    Marcar como lida
+                                </a>
+                                <a href="#" class="trash" >
+                                    <img src="Imagen/trash 1.svg" alt="Excluir">
+                                    Excluir
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="question1 read">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="Imagen/Branquin.svg" alt="Avatar">
+                                </div>
+                                <div class="questionn">
+                                    <p>O que é TypeScript?</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                
+                                <a href="#" class="trash" >
+                                    <img src="Imagen/trash 1.svg" alt="Excluir">
+                                    Excluir
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
 
                 </section>
             </main>
         </div>    
+
+          <!----- MODAL ----->
+
+        <div class="modal-question1">
+            <div class="modal">
+                <h2>Excluir</h2>
+                <p>Tem certeza que você deseja excluir esta pergunta?</p>
+
+                <form action="#">
+                    <label class="sr-only" for-id="password">Digite sua senha admin</label>
+                    <input type="Password" id="password" name="password" placeholder="Digite sua Senha">
+
+                    <div class="buttons">
+                        <div class="button grey" >Cancelar</div>
+                        <button class="red" >Sim, excluir</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
     </body>
 
 </html>
